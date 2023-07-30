@@ -1,5 +1,16 @@
+
 {
-    "command_prefix": "/早报",
-    "alapi_token": "",
-    "type": "text"
+    "morning_news": {
+        "enable": true,
+        "command_prefix": "/早报",
+        "alapi_token": "xxx",
+        "type": "text"
+        "example": "/早报"
+    },
+        "weather_notify": {
+        "enable": true,
+        "command_prefix": "/天气",
+        "qweather_token": "xxx",
+        "example": "/天气 深圳 hourly 异常提醒"
+    }
 }
