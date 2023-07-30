@@ -3,6 +3,7 @@
 
 - [x] `morning_news`: 通过[alapi 每日60秒早报](http://www.alapi.cn/api/view/93)实现，建议配合插件[timetask](https://github.com/haikerapples/timetask)食用。
 - [x] `weather_notify`: 通过[qweather](https://console.qweather.com/#/console)接口查询天气，用于通知天气状态及是否要带雨伞。同样建议配合插件[timetask](https://github.com/haikerapples/timetask)
+- [ ] `bus_notify`: 用于查询公交车还有多久到站
 
 ## 使用
 ### morning_news
@@ -42,3 +43,6 @@
     }
 }
 ```
+
+### bus_notify
+TODO ...
