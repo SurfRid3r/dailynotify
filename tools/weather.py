@@ -85,7 +85,7 @@ def get_weather_24hour_qweather(location_id, qweather_api):
             try:
                 dt = datetime.fromisoformat(hour["fxTime"])
                 dt = dt.astimezone()
-                fx_hour = dt.strftime("%H时")
+                fx_hour = dt.strftime("%H") + "时"
                 # 只显示当天天气，避免消息太长
                 if fx_hour == "00时":
                     break
