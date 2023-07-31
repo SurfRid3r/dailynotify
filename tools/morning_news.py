@@ -24,7 +24,7 @@ def morning_news(conf: dict, e_context: EventContext):
         news = response.get("data", None)
         if not news:
             return e_context
-        elif conf.get("type", "image") == "imag_url":
+        elif conf.get("type", "image") == "image":
             reply.type = ReplyType.IMAGE_URL
             reply.content = news.get("head_image")
             e_context["reply"] = reply
